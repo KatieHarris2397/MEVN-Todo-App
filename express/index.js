@@ -5,7 +5,7 @@ const cors = require('cors')
 const path = require('path')
 require('dotenv').config();
 
-const TodoListRoutes = require('./routes/api/todoList')
+const TodoListRoutes = require('./routes/api/Todolist')
 
 const app = express()
 app.use(cors())
